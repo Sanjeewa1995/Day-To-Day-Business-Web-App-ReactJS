@@ -1,0 +1,10 @@
+export const GET_TODAY_DATA = 'GET_TODAY_DATA';
+export const GET_TODAY_CHEQUE = 'GET_TODAY_CHEQUE';
+export const GET_TODAY_CREDIT = 'GET_TODAY_CREDIT';
+export const GET_TODAY_DATA_FAILED = 'GET_TODAY_DATA_FAILED';
+export const MONTH_SUMMERY = 'MONTH_SUMMERY';
+
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCES = 'AUTH_SUCCES';
+export const AUTH_FAILD = 'AUTH_FAILD';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';

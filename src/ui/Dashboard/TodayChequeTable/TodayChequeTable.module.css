@@ -1,0 +1,36 @@
+.card {
+    margin-right: 10px;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(255, 152, 0,.4);
+}
+
+.headerTitle {
+    color: white;
+    margin-top: 0px;
+    min-height: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    margin-bottom: 3px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.table {
+    margin-top: 50px;
+    padding: 0px 10px 10px 10px;
+}
+
+@media (max-width:600px) {
+    .card {
+        margin-left: 10px;
+    }
+}

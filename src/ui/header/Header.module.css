@@ -1,0 +1,38 @@
+.appBarTitle {
+    font-size: 30px;
+}
+
+.toolBar {
+    justify-content: center;
+    height: 5em;
+    position: relative;
+}
+
+.iconContainer {
+    position: absolute;
+}
+
+.iconContainer:hover{
+    background-color: transparent;
+}
+
+@media (max-width:600px) {
+    .toolBar{
+        height: 4.5em;
+    }
+
+    .iconContainer {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+
+    .icon {
+        height: 50px;
+        width: 50px;
+        color: white;
+        position: absolute;
+        right: 0px;
+    }
+}

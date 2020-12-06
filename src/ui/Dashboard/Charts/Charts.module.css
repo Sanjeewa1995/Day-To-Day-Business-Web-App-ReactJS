@@ -1,0 +1,27 @@
+.card {
+    height: 300px;
+    margin: 0px 10px;
+    padding-bottom: 15px;
+}
+
+.chartWrapper {
+    padding: 15px 15px 0px 0px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(244, 67, 54,.4);
+}
+
+.footer {
+    display: block;
+    margin-top: 250px;
+    margin-left: 25px;
+}
+
+@media (max-width:600px) {
+    .card {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+.root {
+  background-color: #e8e8e8;
+  padding: 10px;
+  margin-left: 260px;
+  margin-top: 5em;
+}
+
+.typographyItemContainer {
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.calender {
+  border-radius: 10px;
+  overflow: auto;
+}
